@@ -7,12 +7,9 @@ The project was developed as part of a Kaggle competition, where we achieved a t
 ![image](https://github.com/user-attachments/assets/132b995e-0a7e-4d24-9b15-bd181538b588)
 
 
-### Competition Context
-
-The competition dataset includes large-scale keystroke logs, representing learners' writing behaviors and essay outcomes. The challenge was to build a model capable of accurately predicting writing quality based on these features, offering valuable insights into how typing patterns influence essay performance.
 ---
 
-## Approach  
+### Approach  
 
 ### Data Preprocessing  
 - Extracted temporal features from keystroke logs to effectively represent typing behavior.  
@@ -34,3 +31,28 @@ The competition dataset includes large-scale keystroke logs, representing learne
 - Combined predictions from boosting models and neural networks using a fusion strategy for robust final predictions.  
 
 ---
+### Results  
+- **Competition Rank**: Top 100 on Kaggle leaderboard.  
+- **Metrics**:  
+  - Public Score: **0.5718**  
+  - Private Score: **0.5761**  
+  - Validation R²: **0.92**  
+
+---
+
+### Technologies Used  
+- **Programming Language**: Python  
+- **Libraries**:  
+  - TensorFlow/Keras  
+  - Scikit-learn  
+  - NumPy, Pandas  
+- **Machine Learning Models**:  
+  - GradientBoostingRegressor, AdaBoostRegressor  
+- **Deep Learning Models**:  
+  - Bottleneck DenseLayerNet, DenseNet  
+- **Techniques**:  
+  - Ensemble Learning  
+  - Model Fusion  
+
+---
+
